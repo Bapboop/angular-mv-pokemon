@@ -12,6 +12,7 @@ import { RangeSliderComponent } from './range-slider/range-slider.component';
 import { ImageViewComponent } from './image-view/image-view.component';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatNativeDateModule,
     MatSliderModule,
     MatToolbarModule,
+    MatCardModule
   ]
   ,
   providers: [],
