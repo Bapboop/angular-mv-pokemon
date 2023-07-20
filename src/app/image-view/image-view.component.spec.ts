@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { XyzComponent } from './xyz.component';
+import { ImageViewComponent } from './image-view.component';
 
-describe('XyzComponent', () => {
-  let component: XyzComponent;
-  let fixture: ComponentFixture<XyzComponent>;
+describe('ImageViewComponent', () => {
+  let component: ImageViewComponent;
+  let fixture: ComponentFixture<ImageViewComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [XyzComponent]
+      declarations: [ImageViewComponent]
     });
-    fixture = TestBed.createComponent(XyzComponent);
+    fixture = TestBed.createComponent(ImageViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
