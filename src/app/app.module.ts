@@ -11,6 +11,7 @@ import { DatePickerComponent } from './date-picker/date-picker.component';
 import { RangeSliderComponent } from './range-slider/range-slider.component';
 import { ImageViewComponent } from './image-view/image-view.component';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MatSliderModule} from '@angular/material/slider';
     MatInputModule, 
     MatDatepickerModule, 
     MatNativeDateModule,
-    MatSliderModule
+    MatSliderModule,
+    MatToolbarModule,
   ]
   ,
   providers: [],
