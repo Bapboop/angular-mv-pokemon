@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DatePickerComponent } from './date-picker/date-picker.component';
 import { RangeSliderComponent } from './range-slider/range-slider.component';
 import { ImageViewComponent } from './image-view/image-view.component';
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ImageViewComponent } from './image-view/image-view.component';
     MatInputModule, 
     MatDatepickerModule, 
     MatNativeDateModule,
+    MatSliderModule
   ]
   ,
   providers: [],
